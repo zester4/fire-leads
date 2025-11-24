@@ -1,0 +1,6 @@
+firecrawl-py
+python-dotenv
+email-validator
+dnspython
+tqdm
+requests
