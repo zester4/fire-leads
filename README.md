@@ -63,3 +63,33 @@ The system creates 4 output files in the `output/` directory:
 ## Getting Started
 
 *(Further instructions on installation, configuration, and usage will be added here.)*
+
+---
+
+## Recommended Test Sites for `fire-leads`
+
+Here are several categories of websites to test the capabilities of the `fire-leads` system, ranging from simple to complex.
+
+### 1. Simple Business Listings & Directories (Easy Difficulty)
+Great for initial tests to ensure basic extraction logic is working.
+
+*   **Yellow Pages:** `https://www.yellowpages.com/` (Example: Search "plumbers in san francisco")
+*   **Dun & Bradstreet:** `https://www.dnb.com/business-directory/company-search.html`
+
+### 2. Dynamic & JavaScript-Heavy Platforms (Medium Difficulty)
+These sites test the scraper's ability to handle content that loads dynamically.
+
+*   **Clutch.co:** `https://clutch.co/` (Example: Navigate to a category like "Top Web Developers")
+*   **Crunchbase:** `https://www.crunchbase.com/` (Example: Search for "SaaS companies founded in 2022")
+
+### 3. Websites with Anti-Scraping Measures (Hard Difficulty)
+These are the ultimate stress test for resilience and handling protections.
+
+*   **Yelp:** `https://www.yelp.com/` (Example: Search "restaurants in new york")
+*   **Apollo.io (Public Search):** `https://www.apollo.io/`
+
+### 4. Industry-Specific & Niche Sites (Real-World Scenario)
+Perfect for testing adaptability, especially for your housing project.
+
+*   **Realtor.com:** `https://www.realtor.com/realestateagents/` (Example: Search for agents in a specific zip code)
+*   **Zillow:** `https://www.zillow.com/` (Example: Look for "Agents" or "Home Builders" in an area)
